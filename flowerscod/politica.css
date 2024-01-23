@@ -1,0 +1,80 @@
+* {
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: #a19c4b;
+}
+#menu-h ul li{
+    display:inline;
+}
+#menu-h ul li a{
+    display:inline-block;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: larger;
+}
+
+#menu-h li a:hover{
+    color:pink;
+}
+h2{
+
+    color: #a19c4b;
+    font-size: 50px;
+    text-align:center;
+    font-family: 'Playfair Display';
+    padding: 20px 20px 20px 20px;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0 0 10px 30px;
+    font-style: oblique;
+    font-weight:lighter;
+    color: #a19c4b;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.100);
+}
+.politicaprivaci{
+    position: relative;
+    left: 10px;
+    top:10px;
+}
+.info-pessoais{
+    margin-left: 10px;
+    margin-top:25px;
+}
+.info-dispositivo{
+    margin-left:10px;
+    margin-top:10px
+}
+.info-compra{
+    margin-top:10px;
+    margin-left:10px;
+}
+.como-usamos, .como-dispositivos, .info-sobre{
+    margin-left:10px;
+}
+#texto{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 1300px;
+    margin:20px 20px 40px 30px;
+    padding: 20px 20px 50px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.925);
+}
+
+input{
+    position: relative;
+    left: 90%;
+    padding:10px 10px 10px 10px ;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius:inherit;
+    color: #a19c4b;
+    border-color:#a19c4b;
+}
