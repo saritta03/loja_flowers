@@ -1,2 +1,2 @@
-# loja_flowers
- Loja de acessorios
+Flowers
+Uma loja de acessorios
