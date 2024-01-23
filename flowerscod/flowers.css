@@ -1,0 +1,161 @@
+* {
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: #a19c4b;
+}
+#menu-h ul li{
+    display:inline;
+}
+#menu-h ul li a{
+    display:inline-block;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+#menu-h li a:hover{
+    color:pink;
+}
+h1{
+    color: #a19c4b;
+    background: pink;
+    font-size: 80px;
+    text-align:center;
+    font-family: 'Playfair Display';
+}
+
+.menu-container {
+    position: relative;
+    margin: 25px auto auto 0px;
+    background-color: #a19c4b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h4{
+    color:#fff;
+    position: relative;
+    top:6px;
+    height: 0px;
+    margin-left:50px;
+    text-decoration: none;
+}
+input {
+    height: 30px;
+    width: 400px;
+    padding-left: 40px;
+    border-color:#e2e0b4;
+    border-radius: 10px;
+    font-style: italic;
+    
+}
+
+.options-buscar {
+    padding-left: 50px;
+    margin-left: 100px
+}
+
+svg.feather.feather-menu {
+    position: absolute;
+    left:10px;
+    top: calc(43% - 10px);
+    margin: 0px 10px 10px 0px;
+    color:#fff;
+}
+
+svg.feather.feather-search {
+    position: absolute;
+    margin-left:10px;
+    top: calc(45% - 9px);
+    padding-bottom: 5px;
+    color: #a19c4b;
+}
+
+.options-perfil {
+    position: absolute;
+    padding-left: 10px;
+    display: flex;
+    top: calc(45% - 10px);
+    margin: 0; 
+    right:15px;
+    
+}
+
+svg.feather.feather-user {
+    color: #fff;
+    padding-bottom: 3px;
+}
+
+a {
+    padding-left: 5px;
+    font-size: larger;
+    color:rgb(224, 142, 156);
+}
+
+.options-compras{
+    position: absolute;
+    padding-left: 10px;
+    display: flex;
+    top: calc(45% - 8px);
+    margin: 0; 
+    right:55px;
+}
+
+svg.feather.feather-shopping-cart{
+    color: #fff;
+    padding-bottom: 4px
+}
+
+.produtos img {
+    max-width: 100%; /* Ajusta a largura máxima para evitar que as imagens ultrapassem o tamanho do contêiner pai */
+    height: auto;    /* Mantém a proporção original da imagem */
+}
+
+.produtos img {
+    width: 100px;    /* Largura fixa desejada */
+    height: 150px;   /* Altura fixa desejada */
+    object-fit: cover; /* Para manter a proporção e cortar se necessário */
+    border-radius: 5px;
+}
+
+.produtos{
+    position:relative;
+    top:50px;
+}
+
+.seção-produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.produtos {
+    width: 200px;
+    margin: 5px;
+    text-align: center;
+}
+
+.produtos img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    color:#a19c4b;
+}
+
+p{
+    position: relative;
+    top:3px;
+    font-style: italic;
+    font-size: small;
+}
+
+span{
+    position: relative;
+    top:5px;
+}
